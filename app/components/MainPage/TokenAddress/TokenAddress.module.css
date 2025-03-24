@@ -1,0 +1,53 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.tokenAddressTitle {
+	font-size: 50px;
+	background-color: rgb(45, 45, 45);
+	padding: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 10px;
+	color: white;
+	border-bottom: 6px solid black;
+}
+
+.tokenAddressContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.tokenAddressText {
+	font-size: 35px;
+	margin: 0;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	color: white;
+	background-color: rgb(67, 67, 67);
+	padding: 20px;
+}
+
+.tokenAddressTextCopyButton {
+	font-size: 35px;
+	background: yellow;
+	border: none;
+	outline: none;
+	padding: 20px;
+	cursor: pointer;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	color: yellow;
+	background-color: rgb(40, 40, 40);
+	font-weight: bold;
+	font-family: 'Lacquer', sans-serif;
+}
+
+.tokenAddressTextCopyButton:hover {
+	background-color: rgb(35, 35, 35);
+}

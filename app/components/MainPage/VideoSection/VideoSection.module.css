@@ -1,0 +1,27 @@
+.videoTextContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 800px;
+	width: 100%;
+	padding-top: 120px;
+}
+
+.videoText {
+	color: yellow;
+	font-size: 26px;
+	margin: 0 50px;
+	text-align: center;
+	width: 47%;
+	line-height: 1.7;
+	overflow-y: scroll;
+	height: 100%;
+}
+
+.video {
+	height: 100%;
+	width: 38%;
+	border-radius: 35px;
+	object-fit: cover;
+	object-position: 50% 20%;
+}

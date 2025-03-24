@@ -1,0 +1,38 @@
+.main {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.openMainPageContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	color: yellow;
+	font-size: 45px;
+}
+
+.openMainPageButton {
+	font-size: 26px;
+	color: rgb(220, 220, 220);
+	border: none;
+	outline: none;
+	padding: 25px;
+	cursor: pointer;
+	border-radius: 7px;
+	background-color: rgb(51, 51, 51);
+	font-weight: bold;
+	width: 270px;
+	font-family: 'Lacquer', sans-serif;
+}
+
+.openMainPageButton:hover {
+	background-color: rgb(61, 61, 61);
+}
