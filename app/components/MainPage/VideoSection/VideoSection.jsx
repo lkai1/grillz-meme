@@ -4,7 +4,7 @@ import styles from "./VideoSection.module.css";
 
 const VideoSection = () => {
 	return (
-		<div className={styles.videoTextContainer}>
+		<div className={styles.videoSectionContainer}>
 			<div className={styles.videoText}>
 				{`The insertion of gems into teeth predates hip hop culture. Hip hop artists such as Raheem the Dream and Kilo Ali began wearing grills in the early 1980s;
 New York-based Eddie Plein, owner of Famous Eddie's Gold Teeth, and Johnny Dang and Paul Wall are often credited with kickstarting and expanding the trend. 

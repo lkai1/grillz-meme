@@ -5,7 +5,6 @@
 	align-items: center;
 	margin-top: 80px;
 	width: 100%;
-	border-radius: 10px;
 	margin-bottom: 25px;
 	background-color: black;
 	padding-bottom: 35px;
@@ -24,4 +23,85 @@
 	width: 85%;
 	text-align: center;
 	line-height: 1.5;
+	margin: 0;
+}
+
+@media (min-width: 320px) {
+	.bannerContainer {
+		margin-top: 40px;
+		margin-bottom: 25px;
+		padding-bottom: 35px;
+	}
+
+	.bannerImage {
+		width: 290px;
+	}
+
+	.bannerText {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 450px) {
+	.bannerImage {
+		width: 340px;
+	}
+
+	.bannerText {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 530px) {
+	.bannerImage {
+		width: 360px;
+	}
+
+	.bannerText {
+		font-size: 21px;
+	}
+}
+
+@media (min-width: 700px) {
+	.bannerImage {
+		width: 400px;
+	}
+
+	.bannerText {
+		font-size: 23px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.bannerImage {
+		width: 450px;
+	}
+
+	.bannerText {
+		font-size: 23px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.bannerImage {
+		width: 470px;
+	}
+
+	.bannerText {
+		font-size: 23px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.bannerContainer {
+		padding-bottom: 60px;
+	}
+
+	.bannerImage {
+		width: 500px;
+	}
+
+	.bannerText {
+		font-size: 23px;
+	}
 }

@@ -7,13 +7,13 @@
 
 .tokenAddressTitle {
 	font-size: 50px;
-	background-color: rgb(45, 45, 45);
+	background-color: #8122a1;
 	padding: 20px;
 	padding-left: 30px;
 	padding-right: 30px;
 	border-radius: 10px;
 	color: white;
-	border-bottom: 6px solid black;
+	border-bottom: 5px solid rgb(62, 62, 62);
 }
 
 .tokenAddressContainer {
@@ -29,7 +29,7 @@
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
 	color: white;
-	background-color: rgb(67, 67, 67);
+	background-color: rgb(70, 70, 70);
 	padding: 20px;
 }
 
@@ -50,4 +50,145 @@
 
 .tokenAddressTextCopyButton:hover {
 	background-color: rgb(35, 35, 35);
+}
+
+@media (min-width: 320px) {
+	.tokenAddressTitle {
+		font-size: 26px;
+		padding: 20px;
+		padding-top: 25px;
+		margin: 0;
+		margin-bottom: 35px;
+		margin-top: 20px;
+		width: 245px;
+		text-align: center;
+	}
+
+	.tokenAddressContainer {
+		flex-direction: column;
+	}
+
+	.tokenAddressText {
+		font-size: 22px;
+		border-radius: 0;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+		width: 245px;
+		overflow-x: scroll;
+	}
+
+	.tokenAddressTextCopyButton {
+		font-size: 23px;
+		padding: 15px;
+		padding-top: 17px;
+		padding-bottom: 17px;
+		border-radius: 0;
+		border-bottom-right-radius: 20px;
+		border-bottom-left-radius: 20px;
+		width: 285px;
+	}
+}
+
+@media (min-width: 450px) {
+	.tokenAddressTitle {
+		margin-bottom: 30px;
+		width: 300px;
+	}
+
+	.tokenAddressText {
+		width: 300px;
+	}
+
+	.tokenAddressTextCopyButton {
+		width: 340px;
+		margin-bottom: 18px;
+	}
+}
+
+@media (min-width: 530px) {
+	.tokenAddressTitle {
+		margin-bottom: 28px;
+		width: 330px;
+	}
+
+	.tokenAddressText {
+		width: 330px;
+	}
+
+	.tokenAddressTextCopyButton {
+		width: 370px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 700px) {
+	.tokenAddressTitle {
+		margin-bottom: 28px;
+		width: 450px;
+	}
+
+	.tokenAddressText {
+		width: 450px;
+	}
+
+	.tokenAddressTextCopyButton {
+		width: 490px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 800px) {
+	.tokenAddressTitle {
+		margin-bottom: 28px;
+		width: 570px;
+		text-align: center;
+	}
+
+	.tokenAddressText {
+		width: 570px;
+		text-align: center;
+	}
+
+	.tokenAddressTextCopyButton {
+		width: 610px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 1300px) {
+	.tokenAddressTitle {
+		margin-bottom: 28px;
+		width: 650px;
+		text-align: center;
+		margin-top: 50px;
+	}
+
+	.tokenAddressText {
+		width: 700px;
+		text-align: center;
+	}
+
+	.tokenAddressTextCopyButton {
+		width: 740px;
+		margin-bottom: 15px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.tokenAddressTitle {
+		margin-bottom: 40px;
+		width: 780px;
+		text-align: center;
+		margin-top: 60px;
+	}
+
+	.tokenAddressText {
+		width: 700px;
+		text-align: center;
+	}
+
+	.tokenAddressTextCopyButton {
+		width: 740px;
+		margin-bottom: 15px;
+	}
 }

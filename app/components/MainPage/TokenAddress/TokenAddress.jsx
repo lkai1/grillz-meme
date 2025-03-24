@@ -1,13 +1,19 @@
+"use client"
+
 import styles from "./TokenAddress.module.css"
 
 const TokenAddress = () => {
+
+	const tokenAddress = "7USDHmdsFsJGsrvuYWvYHKejJBneCLVk8hdMWVvb7VqA"
 
 	return (
 		<div className={styles.main}>
 			<p className={styles.tokenAddressTitle}>SOLANA ADDRESS</p>
 			<div className={styles.tokenAddressContainer}>
-				<p className={styles.tokenAddressText}>7USDHmdsFsJGsrvuYWvYHKejJBneCLVk8hdMWVvb7VqA</p>
-				<button className={styles.tokenAddressTextCopyButton}>Copy</button>
+				<p className={styles.tokenAddressText}>{tokenAddress}</p>
+				<button className={styles.tokenAddressTextCopyButton} onClick={() => {
+					navigator.clipboard.writeText("Hello, this is copied text!")
+				}}>Copy</button>
 			</div>
 		</div>
 	)
