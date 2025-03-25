@@ -74,7 +74,7 @@
 		border-top-right-radius: 10px;
 		border-top-left-radius: 10px;
 		width: 245px;
-		overflow-x: scroll;
+		overflow-x: auto;
 	}
 
 	.tokenAddressTextCopyButton {

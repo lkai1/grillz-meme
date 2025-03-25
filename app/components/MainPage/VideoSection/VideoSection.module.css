@@ -14,7 +14,7 @@
 	text-align: center;
 	width: 47%;
 	line-height: 1.7;
-	overflow-y: scroll;
+	overflow-y: auto;
 	height: 100%;
 }
 
@@ -107,7 +107,7 @@
 		text-align: center;
 		width: 47%;
 		line-height: 1.7;
-		overflow-y: scroll;
+		overflow-y: auto;
 		height: 100%;
 	}
 
