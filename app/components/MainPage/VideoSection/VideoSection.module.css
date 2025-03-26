@@ -4,18 +4,29 @@
 	justify-content: center;
 	height: 800px;
 	width: 100%;
-	margin-top: 120px;
+	padding-top: 30px;
+	margin-top: 30px;
+	background-color: black;
+	border-bottom: 4px solid rgb(58, 58, 58);
+	border-top: 4px solid rgb(58, 58, 58);
+	overflow: hidden;
 }
 
-.videoText {
+.imageAndLogoContainer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.logoText {
 	color: yellow;
-	font-size: 26px;
-	margin: 0 50px;
-	text-align: center;
+	font-size: 42px;
+	margin: 0;
+}
+
+.videoSectionImage {
 	width: 47%;
-	line-height: 1.7;
-	overflow-y: auto;
-	height: 100%;
 }
 
 .video {
@@ -28,63 +39,105 @@
 
 @media (min-width: 320px) {
 	.videoSectionContainer {
-		flex-direction: column-reverse;
+		flex-direction: column;
 		width: 100%;
 		height: fit-content;
-		margin-top: 50px;
+		margin-top: 45px;
+		padding-top: 20px;
+		padding-bottom: 45px;
+	}
+
+	.logoText {
+		margin-top: 10px;
+		margin-bottom: -30px;
+		z-index: 1;
+		font-size: 35px;
+	}
+
+	.videoSectionImage {
+		width: 82%;
+		margin-bottom: 8px;
 	}
 
 	.video {
-		height: 100%;
 		width: 78%;
 		border-radius: 10px;
-	}
-
-	.videoText {
-		font-size: 18px;
-		margin-top: 18px;
-		width: 85%;
 	}
 }
 
 @media (min-width: 450px) {
-	.video {
-		height: 100%;
-		width: 80%;
+	.logoText {
+		margin-bottom: -35px;
+		font-size: 40px;
 	}
 
-	.videoText {
-		margin-top: 22px;
-		font-size: 20px;
+	.videoSectionImage {
+		width: 72%;
+		margin-bottom: 10px;
+	}
+
+	.video {
+		width: 72%;
 	}
 }
 
 @media (min-width: 530px) {
-	.video {
-		width: 58%;
+	.videoSectionImage {
+		width: 65%;
 	}
 
-	.videoText {
-		margin-top: 28px;
-		font-size: 23px;
+	.video {
+		width: 60%;
 	}
 }
 
 @media (min-width: 700px) {
+	.logoText {
+		margin-top: 30px;
+		margin-bottom: -50px;
+		font-size: 44px;
+	}
+
+	.videoSectionImage {
+		width: 56%;
+		margin-bottom: 22px;
+	}
+
 	.video {
 		width: 62%;
+		margin-bottom: 20px;
 	}
 }
 
 @media (min-width: 800px) {
+
+	.logoText {
+		font-size: 47px;
+	}
+
+	.videoSectionImage {
+		width: 52%;
+		margin-bottom: 18px;
+	}
+
 	.video {
 		width: 55%;
 	}
 }
 
 @media (min-width: 1000px) {
+	.logoText {
+		font-size: 50px;
+	}
+
+	.videoSectionImage {
+		width: 49%;
+		margin-bottom: 18px;
+	}
+
 	.video {
 		width: 45%;
+		margin-bottom: 23px;
 	}
 }
 
@@ -97,27 +150,26 @@
 		height: 800px;
 		width: 100%;
 		margin-top: 90px;
+		padding-top: 70px;
+		padding-bottom: 50px;
+		padding-right: 30px;
 	}
 
-	.videoText {
-		color: yellow;
-		font-size: 26px;
-		padding: 10px;
-		margin: 0 50px;
-		text-align: center;
-		width: 47%;
-		line-height: 1.7;
-		overflow-y: auto;
-		height: 100%;
+	.imageAndLogoContainer {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 70%;
 	}
 
 	.video {
 		height: 100%;
-		width: 38%;
+		width: 35%;
 		border-radius: 35px;
 		object-fit: cover;
 		object-position: 50% 20%;
 		padding: 10px;
+		margin-right: 30px;
 	}
 }
 
@@ -125,10 +177,17 @@
 	.video {
 		width: 38%;
 	}
+}
 
-	.videoText {
-		margin-top: 28px;
-		font-size: 23px;
-		width: 67%;
+@media (min-width: 3000px) {
+	.imageAndLogoContainer {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 55%;
+	}
+
+	.video {
+		width: 28%;
 	}
 }
