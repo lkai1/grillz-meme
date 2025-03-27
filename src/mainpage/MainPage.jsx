@@ -1,4 +1,4 @@
-import styles from "./mainpage.module.css";
+import styles from "./MainPage.module.css";
 import Header from "../components/MainPage/Header/Header";
 import Banner from "../components/MainPage/Banner/Banner";
 import VideoSection from "../components/MainPage/VideoSection/VideoSection";

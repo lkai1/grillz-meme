@@ -12,7 +12,7 @@ const TokenAddress = () => {
 			<div className={styles.tokenAddressContainer}>
 				<p className={styles.tokenAddressText}>{tokenAddress}</p>
 				<button className={styles.tokenAddressTextCopyButton} onClick={() => {
-					navigator.clipboard.writeText("Hello, this is copied text!")
+					navigator.clipboard.writeText(tokenAddress)
 				}}>Copy</button>
 			</div>
 		</div>

@@ -9,7 +9,6 @@
 	background-color: black;
 	border-bottom: 4px solid rgb(58, 58, 58);
 	border-top: 4px solid rgb(58, 58, 58);
-	overflow: hidden;
 }
 
 .imageAndLogoContainer {
@@ -189,5 +188,63 @@
 
 	.video {
 		width: 28%;
+	}
+}
+
+@media (min-width: 3300px) {
+	.videoSectionContainer {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		height: 1000px;
+	}
+
+	.imageAndLogoContainer {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 38%;
+	}
+
+	.logoText {
+		font-size: 67px;
+	}
+
+	.videoSectionImage {
+		width: 52%;
+		margin-bottom: 18px;
+	}
+
+	.video {
+		width: 13%;
+	}
+}
+
+@media (min-width: 4000px) {
+	.videoSectionContainer {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		height: 1000px;
+	}
+
+	.imageAndLogoContainer {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 38%;
+	}
+
+	.logoText {
+		font-size: 67px;
+	}
+
+	.videoSectionImage {
+		width: 52%;
+		margin-bottom: 18px;
+	}
+
+	.video {
+		width: 13%;
 	}
 }
