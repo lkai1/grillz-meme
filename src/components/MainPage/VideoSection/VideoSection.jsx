@@ -1,5 +1,3 @@
-"use client"
-
 import styles from "./VideoSection.module.css";
 
 const VideoSection = () => {
