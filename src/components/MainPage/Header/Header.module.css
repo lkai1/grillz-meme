@@ -115,45 +115,6 @@
 	}
 }
 
-@media (min-width: 450px) {
-	.headerLogo {
-		font-size: 45px;
-		width: 230px;
-	}
-
-	.headerLinkImageContainers {
-		margin-top: 30px;
-	}
-
-	.linksText {
-		font-size: 37px;
-	}
-
-	.headerLinkImageContainer {
-		padding: 22px;
-		height: 35px;
-	}
-}
-
-@media (min-width: 530px) {
-	.headerLogo {
-		width: 250px;
-	}
-
-	.headerLinkImageContainers {
-		margin-top: 33px;
-	}
-
-	.linksText {
-		font-size: 40px;
-	}
-
-	.headerLinkImageContainer {
-		padding: 22px;
-		height: 37px;
-	}
-}
-
 @media (min-width: 530px) {
 	.headerLogo {
 		width: 250px;

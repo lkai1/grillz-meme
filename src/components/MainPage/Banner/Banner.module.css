@@ -82,7 +82,7 @@
 	}
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1300px) {
 	.bannerImage {
 		width: 470px;
 	}
@@ -92,7 +92,7 @@
 	}
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 2000px) {
 	.bannerContainer {
 		padding-bottom: 60px;
 	}

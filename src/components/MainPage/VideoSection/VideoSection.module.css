@@ -173,37 +173,38 @@
 }
 
 @media (min-width: 2000px) {
+	.videoSectionImage {
+		width: 28%;
+		margin-bottom: 18px;
+	}
+
 	.video {
-		width: 38%;
+		width: 20%;
 	}
 }
 
 @media (min-width: 3000px) {
 	.imageAndLogoContainer {
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-		width: 55%;
+		width: 60%;
+	}
+
+	.videoSectionImage {
+		width: 30%;
+		margin-bottom: 18px;
 	}
 
 	.video {
-		width: 28%;
+		width: 15%;
 	}
 }
 
 @media (min-width: 3300px) {
 	.videoSectionContainer {
-		display: flex;
-		align-items: center;
-		justify-content: space-around;
 		height: 1000px;
 	}
 
 	.imageAndLogoContainer {
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-		width: 38%;
+		width: 55%;
 	}
 
 	.logoText {
@@ -211,7 +212,7 @@
 	}
 
 	.videoSectionImage {
-		width: 52%;
+		width: 25%;
 		margin-bottom: 18px;
 	}
 
@@ -221,12 +222,6 @@
 }
 
 @media (min-width: 4000px) {
-	.videoSectionContainer {
-		display: flex;
-		align-items: center;
-		justify-content: space-around;
-		height: 1000px;
-	}
 
 	.imageAndLogoContainer {
 		display: flex;
@@ -240,7 +235,27 @@
 	}
 
 	.videoSectionImage {
-		width: 52%;
+		width: 32%;
+		margin-bottom: 18px;
+	}
+
+	.video {
+		width: 13%;
+	}
+}
+
+@media (min-width: 5000px) {
+
+	.imageAndLogoContainer {
+		width: 40%;
+	}
+
+	.logoText {
+		font-size: 70px;
+	}
+
+	.videoSectionImage {
+		width: 28%;
 		margin-bottom: 18px;
 	}
 
