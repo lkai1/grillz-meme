@@ -12,12 +12,12 @@ const Header = () => {
 				<div className={styles.headerLinkImageContainer} onClick={() => {
 					window.open("https://web.telegram.org/a/", "_blank", "noopener,noreferrer");
 				}}>
-					<img src="/telegram_logo_transparent.png" alt="image" className={styles.headerLinkImage} />
+					<img src={`${import.meta.env.BASE_URL}telegram_logo_transparent.png`} alt="image" className={styles.headerLinkImage} />
 				</div>
 				<div className={styles.headerLinkImageContainer} onClick={() => {
 					window.open("https://dexscreener.com/", "_blank", "noopener,noreferrer");
 				}}>
-					<img src="/dexscreener_logo_transparent.png" alt="image" className={styles.headerLinkImage} />
+					<img src={`${import.meta.env.BASE_URL}dexscreener_logo_transparent.png`} alt="image" className={styles.headerLinkImage} />
 				</div>
 			</div>
 		</div>

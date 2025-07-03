@@ -5,14 +5,14 @@ const VideoSection = () => {
 		<div className={styles.videoSectionContainer}>
 			<div className={styles.imageAndLogoContainer}>
 				<p className={styles.logoText}>$GRILLZ</p>
-				<img src="/grillz-diamond.jpg" alt="image" className={styles.videoSectionImage} />
+				<img src={`${import.meta.env.BASE_URL}grillz-diamond.jpg`} alt="image" className={styles.videoSectionImage} />
 			</div>
 			<video
 				className={styles.video}
 				autoPlay
 				loop
 			>
-				<source src="/grillz-meme-video.mp4" type="video/mp4" />
+				<source src={`${import.meta.env.BASE_URL}grillz-meme-video.mp4`} type="video/mp4" />
 				Your browser does not support the video tag.
 			</video>
 		</div>

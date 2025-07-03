@@ -10,7 +10,7 @@ const MainPage = () => {
 	return (
 		<div className={styles.main}>
 			<audio autoPlay loop>
-				<source src="/grillz-meme-music.mp3" type="audio/mp3" />
+				<source src={`${import.meta.env.BASE_URL}grillz-meme-music.mp3`} type="audio/mp3" />
 				Your browser does not support the audio tag.
 			</audio>
 			<Header />

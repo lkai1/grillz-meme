@@ -5,7 +5,7 @@ const Banner = () => {
 	return (
 		<div className={styles.bannerContainer}>
 			<div className={styles.bannerImageContainer}>
-				<img src="/grillz-gold-diamond.jpg" alt="image" className={styles.bannerImage} />
+				<img src={`${import.meta.env.BASE_URL}grillz-gold-diamond.jpg`} alt="image" className={styles.bannerImage} />
 			</div>
 			<p className={styles.bannerText}>{`In pop culture, a grill (most commonly referred to as grills or grillz), 
 			also known as fronts or golds, 

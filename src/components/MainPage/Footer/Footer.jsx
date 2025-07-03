@@ -8,12 +8,12 @@ const Footer = () => {
 			<div className={styles.linkImageContainer} onClick={() => {
 				window.open("https://web.telegram.org/a/", "_blank", "noopener,noreferrer");
 			}}>
-				<img src="/telegram_logo_transparent.png" alt="image" className={styles.linkImage} />
+				<img src={`${import.meta.env.BASE_URL}telegram_logo_transparent.png`} alt="image" className={styles.linkImage} />
 			</div>
 			<div className={styles.linkImageContainer} onClick={() => {
 				window.open("https://dexscreener.com/", "_blank", "noopener,noreferrer");
 			}}>
-				<img src="/dexscreener_logo_transparent.png" alt="image" className={styles.linkImage} />
+				<img src={`${import.meta.env.BASE_URL}dexscreener_logo_transparent.png`} alt="image" className={styles.linkImage} />
 			</div>
 		</div>
 	)
